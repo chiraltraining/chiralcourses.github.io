@@ -1,40 +1,397 @@
  /*Extra small devices (portrait phones, less than 576px)*/
 @media (max-width: 575.98px) { 
+/*common for all section with out banner*/
+.sec-padding{
+	padding: 6% 0;
+}
 /*header start*/
 header{}
 header a .sizeOfImages{
-	width: 55%;
+	width: 50%!important;
 }
 header .navbar-brand{
 	display: contents;
 }
+header .bg_white{
+	padding:5px 16px !important;
+}
 /*header end*/
+/*banner start*/
+.banner{
+	padding: 10% 0 8%;
+}
+.banner .banner-text{
+	padding: 10% 4%;
+}
+.banner .banner-text p:first-child, .common_p{
+	font-size: 20px;
+}
+.banner .banner-text p:last-child{
+	font-size: 18px;
+}
+.banner .custom-p{
+	margin: 10px 0 0;
+}
+.banner .banner-bottom button i{
+	font-size: 20px;
+}
+.banner .banner-bottom button span{
+	font-size: 16px;
+}
+/*banner end*/
+/*overview start*/
+.overview .overview-left p:first-child , .sec-head{
+	font-size: 22px;
+    font-weight: 700;
+}
+.overview .overview-right h3{
+	font-size: 18px;
+    font-weight: 600;
+}
+.overview .overview-right h4{
+	font-size: 16px;
+}
+/*overview end*/
+/*course shedule start*/
+.crs_shedule .crs-list p{
+	font-size: 16px;
+    font-weight: 600;
+}
+/*course shedule end*/
 
+/*fap start*/
+.faq p b{
+	font-weight: 300;
+}
+.faq .accordion button{
+	font-size: 18px;
+	font-weight: 600;
+}
+/*fap end*/
+/*team start*/
+.team .bio--1 img{
+	height: 130px;
+	width: 130px;
+	margin-top: 6%;
+}
+.team .bio--1 h4{
+	font-size: 18px;
+}
+.team .bio--1 i{
+	font-size: 22px;
+}
+.team .team2 .Team_box img{
+	height: 110px;
+	width: 110px;
+}
+.team .team2 .Team_box h4{
+	font-size: 18px;
+}
+.team .team2 .prev i{
+	display: none;
+}
+.team .team2 .next i{
+	display: none;
+}
+.team  h5{
+	font-size: 16px;
+}
 
-
+/*team end*/
+/*sponsor start*/
+.sponser h5{
+	font-size: 16px!important;
+}
+.sponser form .form-btn{
+	padding: 1% 40.7%;
+}
+/*sponsor end*/
+/*back to top*/
+.back-to-top{
+	height: 40px;
+	width: 40px;
+}
+.back-to-top i{
+	font-weight: 900;
+    position: absolute;
+    left: 9px;
+    top: 3px;
+}
+/*back to top*/
 }
 
  /*Small devices (landscape phones, less than 768px)*/
-@media (max-width: 767.98px) {
+@media (min-width: 576px) and (max-width: 767.98px) {
+/*common for all section with out banner*/
+.sec-padding{
+	padding: 4% 0;
+}
 /*header start*/
+header{}
 header a .sizeOfImages{
-	width: 75%;
+	width: 34%!important;
+}
+header .navbar-brand{
+	display: contents;
+}
+header .bg_white{
+	padding:9px 10px!important;
 }
 /*header end*/
+/*banner start*/
+.banner{
+	padding:16% 0 5%;
+}
+.banner .banner-text{
+	padding: ;
+}
+.banner .banner-text p:first-child, .common_p{
+	font-size: 27px;
+}
+.banner .banner-text p:last-child{
+	font-size: 20px;
+}
+.banner .custom-p{
+	margin: ;
+}
+.banner .banner-bottom button i{
+	font-size: 21px;
+}
+.banner .banner-bottom button span{
+	font-size: 18px;
+}
+.banner .banner-bottom .cus_mar{
+	margin-top: 0;
+}
+.banner .banner-bottom p{
+	font-size: 20px;
+}
+.banner .banner-bottom .btn-p{
+	font-size: 16px;
+}
+.banner .custom-p{
+	margin: 0;
+}
+/*banner end*/
+/*overview start*/
+.overview .overview-left p:first-child , .sec-head{
+    font-size: 24px;
+    font-weight: 700;
+}
+.overview .overview-right h3{
+    font-size: 22px;
+    font-weight: 600;
+}
+.overview .overview-right h4{
+	font-size: 20px;
+}
+/*overview end*/
+/*course shedule start*/
+.crs_shedule .crs-list p{
+	font-size: 18px;
+    font-weight: 500;
+}
+/*course shedule end*/
+
+/*fap start*/
+.faq p b{
+	font-weight: 500;
+}
+.faq .accordion button{
+    font-size: 19px;
+    font-weight: 600;
+}
+/*fap end*/
+/*team start*/
+.team .bio--1 img{
+    height: 140px;
+    width: 140px;
+    margin-top: 5%;
+}
+.team .bio--1 h4{
+	font-size: 20px;
+}
+.team .bio--1 i{
+	font-size: 26px;
+}
+.team .team2 .Team_box img{
+	height:120px;
+	width:120px;
+}
+.team .team2 .Team_box h4{
+	font-size: 20px;
+}
+.team .team2 .prev i{
+	display: none;
+}
+.team .team2 .next i{
+	display: none;
+}
+.team  h5{
+	font-size: 18px;
+}
+
+/*team end*/
+/*sponsor start*/
+.sponser h5{
+	font-size:18px!important;
+}
+.sponser form .form-btn{
+	padding: 1% 44.7%;
+}
+/*sponsor end*/
+/*back to top*/
+.back-to-top{
+	height: 45px;
+	width: 45px;
+}
+.back-to-top i{
+    position: absolute;
+    left: 12px;
+    top: 5px;
+}
+/*back to top*/
 }
 
  /*Medium devices (tablets, less than 992px)*/
-@media (max-width: 991.98px) {
+@media (min-width: 768px) and (max-width: 991.98px) {
+/*common for all section with out banner*/
+/*.sec-padding{
+	padding: ;
+}*/
 /*header start*/
+header{}
 header a .sizeOfImages{
-	width: 75%;
+	width: 26%!important;
+}
+header .navbar-brand{
+	display: contents;
+}
+header .bg_white{
+	padding:2% 4%!important;
 }
 /*header end*/
+/*banner start*/
+.banner{
+	padding:17% 0 3%;
+}
+.banner .banner-text{
+	padding: ;
+}
+.banner .banner-text p:first-child, .common_p{
+	font-size: 24px;
+}
+.banner .banner-text p:last-child{
+	font-size: 20px;
+}
+.banner .custom-p{
+	margin: 0;
+}
+.banner .banner-bottom button{
+	width: 80%;
+}
+.banner .banner-bottom button i{
+	font-size: 22px;
+}
+.banner .banner-bottom button span{
+	font-size: 20px;
+}
+/*banner end*/
+/*overview start*/
+.overview .overview-left p:first-child , .sec-head{
+    font-size: 26px;
+    font-weight: 700;
+}
+.overview .overview-right h3{
+	font-size: 24px;
+    font-weight: 500;
+}
+.overview .overview-right h4{
+	font-size: 18px;
+}
+/*overview end*/
+/*course shedule start*/
+.crs_shedule .crs-list p{
+    font-size: 18px;
+    font-weight: 600;
+}
+/*course shedule end*/
+
+/*fap start*/
+.faq p b{
+	font-weight: 400;
+}
+.faq .accordion button{
+    font-size: 18px;
+    font-weight: 600;
+}
+/*fap end*/
+/*team start*/
+.team .bio--1 img{
+    height: 170px;
+    width: 170px;
+    margin-top: 5%;
+}
+.team .bio--1 h4{
+	font-size: 21px;
+}
+.team .bio--1 i{
+	font-size: ;
+}
+.team .team2 .Team_box img{
+	height: 140px;
+	width: 140px;
+}
+.team .team2 .Team_box h4{
+	font-size: 20px;
+}
+.team .team2 .prev i{
+	display: none;
+}
+.team .team2 .next i{
+	display: none;
+}
+.team  h5{
+	font-size: 18px;
+}
+
+/*team end*/
+/*sponsor start*/
+.sponser h5{
+	font-size: 18px!important;
+}
+.sponser form{
+	margin-top: 8%;
+}
+/*sponsor end*/
+/*back to top*/
+.back-to-top{
+	height: ;
+	width: ;
+}
+.back-to-top i{
+	font-weight: ;
+    /*position: absolute;*/
+    left: ;
+    top: ;
+}
+.sponser .footer{
+	margin-top: 20px!important;
+}
+/*back to top*/
 
 }
 
  /*Large devices (desktops, less than 1200px)*/
-@media (max-width: 1199.98px) { ... }
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+/*header start*/
+header a .sizeOfImages{
+	width: 45%;
+}
+/*header end*/
+
+
+}
 
  /*Extra large devices (large desktops)*/
  /*No media query since the extra-large breakpoint has no upper bound on its width*/
