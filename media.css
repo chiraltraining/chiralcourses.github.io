@@ -1,397 +1,658 @@
- /*Extra small devices (portrait phones, less than 576px)*/
-@media (max-width: 575.98px) { 
-/*common for all section with out banner*/
-.sec-padding{
-	padding: 6% 0;
-}
-/*header start*/
-header{}
-header a .sizeOfImages{
-	width: 50%!important;
-}
-header .navbar-brand{
-	display: contents;
-}
-header .bg_white{
-	padding:5px 16px !important;
-}
-/*header end*/
-/*banner start*/
-.banner{
-	padding: 10% 0 8%;
-}
-.banner .banner-text{
-	padding: 10% 4%;
-}
-.banner .banner-text p:first-child, .common_p{
-	font-size: 20px;
-}
-.banner .banner-text p:last-child{
-	font-size: 18px;
-}
-.banner .custom-p{
-	margin: 10px 0 0;
-}
-.banner .banner-bottom button i{
-	font-size: 20px;
-}
-.banner .banner-bottom button span{
-	font-size: 16px;
-}
-/*banner end*/
-/*overview start*/
-.overview .overview-left p:first-child , .sec-head{
-	font-size: 22px;
-    font-weight: 700;
-}
-.overview .overview-right h3{
-	font-size: 18px;
-    font-weight: 600;
-}
-.overview .overview-right h4{
-	font-size: 16px;
-}
-/*overview end*/
-/*course shedule start*/
-.crs_shedule .crs-list p{
-	font-size: 16px;
-    font-weight: 600;
-}
-/*course shedule end*/
+/*Extra small devices (portrait phones, less than 576px)*/
 
-/*fap start*/
-.faq p b{
-	font-weight: 300;
-}
-.faq .accordion button{
-	font-size: 18px;
-	font-weight: 600;
-}
-/*fap end*/
-/*team start*/
-.team .bio--1 img{
-	height: 130px;
-	width: 130px;
-	margin-top: 6%;
-}
-.team .bio--1 h4{
-	font-size: 18px;
-}
-.team .bio--1 i{
-	font-size: 22px;
-}
-.team .team2 .Team_box img{
-	height: 110px;
-	width: 110px;
-}
-.team .team2 .Team_box h4{
-	font-size: 18px;
-}
-.team .team2 .prev i{
-	display: none;
-}
-.team .team2 .next i{
-	display: none;
-}
-.team  h5{
-	font-size: 16px;
+@media (max-width: 575.98px) {
+    /*common for all section with out banner*/
+    .sec-padding {
+        padding: 10% 0 6%;
+    }
+    /*header start*/
+    header {}
+    header a .sizeOfImages {
+        width: 49%!important;
+        margin-left: -8px;
+    }
+    header .navbar-brand {
+        display: contents;
+    }
+    header .bg_white {
+        padding: 5px 16px !important;
+    }
+    /*header end*/
+    /*banner start*/
+    .banner {
+        padding: 10% 0 8%;
+    }
+    .banner .banner-text {
+        padding: 10% 4%;
+    }
+    .banner .banner-text p:first-child,
+    .common_p {
+        font-size: 20px;
+    }
+    .banner .banner-text p:last-child {
+        font-size: 18px;
+    }
+    .banner .custom-p {
+        margin: 10px 0 0;
+    }
+    .banner .banner-bottom button i {
+        font-size: 20px;
+    }
+    .banner .banner-bottom button span {
+        font-size: 16px;
+    }
+    /*banner end*/
+    /*overview start*/
+    .overview .overview-left p:first-child,
+    .sec-head {
+        font-size: 22px;
+        font-weight: 700;
+    }
+    .overview .overview-right h3 {
+        margin-top: 10px;
+        font-size: 22px;
+        font-weight: 700;
+    }
+    .overview .overview-right h4 {
+        font-size: 16px;
+    }
+    /*overview end*/
+    /* counter start */
+    .counter_part .img_bg_cus .content_num {
+        margin: 4% 0;
+        padding: 0 18%;
+    }
+    .counter_part .img_bg_cus .content_num h2 {
+        font-size: 22px!important;
+        font-weight: 600;
+        text-align: center;
+    }
+    .counter_part .img_bg_cus .content_num h4 {
+        font-size: 18px!important;
+        font-weight: 700;
+        text-align: center;
+    }
+    /* counter end */
+    /*course shedule start*/
+    .crs_shedule .crs-list p {
+        font-size: 16px;
+        font-weight: 600;
+    }
+    .crs_shedule .crs-list {
+        /* justify-content: center!important; */
+        text-align: center!important;
+        margin: 3% 0;
+    }
+    .crs_shedule .crs-list h4 {
+        font-size: 20px!important;
+    }
+    .crs_shedule .crs-list img {
+        height: 60px;
+        width: 60px;
+        margin-bottom: 1%;
+    }
+    .crs_shedule .crs-list p {
+        font-size: 17px!important;
+    }
+    /*course shedule end*/
+    /*fap start*/
+    .faq p b {
+        font-weight: 300;
+    }
+    .faq .accordion button {
+        font-size: 18px;
+        font-weight: 600;
+    }
+    /*fap end*/
+    /*team start*/
+    .team .bio--1 {
+        margin: 0 0 7%;
+    }
+    .team .bio--1 img {
+        height: 130px;
+        width: 130px;
+        margin-top: 6%;
+    }
+    .team .bio--1 h4 {
+        margin-top: 2%;
+        font-size: 16px;
+    }
+    .team .bio--1 i {
+        font-size: 22px;
+    }
+    .team .team2 .Team_box img {
+        height: 110px;
+        width: 110px;
+    }
+    .team .team2 .Team_box h4 {
+        font-size: 18px;
+    }
+    .team .team2 .prev i {
+        display: none;
+    }
+    .team .team2 .next i {
+        display: none;
+    }
+    .team h5 {
+        font-size: 16px;
+    }
+    /*team end*/
+    /*sponsor start*/
+    .sponser h5 {
+        font-size: 16px!important;
+    }
+    .sponser form .form-btn {
+        padding: 1% 40.7%;
+    }
+    /*sponsor end*/
+    /*back to top*/
+    .back-to-top {
+        height: 40px;
+        width: 40px;
+    }
+    .back-to-top i {
+        font-weight: 900;
+        position: absolute;
+        left: 9px;
+        top: 3px;
+    }
+    /*back to top*/
 }
 
-/*team end*/
-/*sponsor start*/
-.sponser h5{
-	font-size: 16px!important;
-}
-.sponser form .form-btn{
-	padding: 1% 40.7%;
-}
-/*sponsor end*/
-/*back to top*/
-.back-to-top{
-	height: 40px;
-	width: 40px;
-}
-.back-to-top i{
-	font-weight: 900;
-    position: absolute;
-    left: 9px;
-    top: 3px;
-}
-/*back to top*/
-}
 
- /*Small devices (landscape phones, less than 768px)*/
+/*Small devices (landscape phones, less than 768px)*/
+
 @media (min-width: 576px) and (max-width: 767.98px) {
-/*common for all section with out banner*/
-.sec-padding{
-	padding: 4% 0;
+    /*common for all section with out banner*/
+    .sec-padding {
+        padding: 7% 0 7%;
+    }
+    /*header start*/
+    header {}
+    header a .sizeOfImages {
+        width: 30%!important;
+    }
+    header .navbar-brand {
+        display: contents;
+    }
+    header .bg_white {
+        padding: 9px 10px!important;
+    }
+    /*header end*/
+    /*banner start*/
+    .banner {
+        padding: 16% 0 5%;
+    }
+    .banner .banner-text {
+        padding: ;
+    }
+    .banner .banner-text p:first-child,
+    .common_p {
+        font-size: 27px;
+    }
+    .banner .banner-text p:last-child {
+        font-size: 20px;
+    }
+    .banner .custom-p {
+        margin: ;
+    }
+    .banner .banner-bottom button i {
+        font-size: 21px;
+    }
+    .banner .banner-bottom button span {
+        font-size: 18px;
+    }
+    .banner .banner-bottom .cus_mar {
+        margin-top: 0;
+    }
+    .banner .banner-bottom p {
+        font-size: 20px;
+    }
+    .banner .banner-bottom .btn-p {
+        font-size: 16px;
+    }
+    .banner .custom-p {
+        margin: 0;
+    }
+    /*banner end*/
+    /*overview start*/
+    .overview .overview-left p:first-child,
+    .sec-head {
+        font-size: 24px;
+        font-weight: 700;
+    }
+    .overview .overview-right h3 {
+        font-size: 22px;
+        font-weight: 600;
+    }
+    .overview .overview-right {
+        margin-top: 2%;
+    }
+    .overview .overview-right h4 {
+        font-size: 20px;
+    }
+    /*overview end*/
+    /* counter start */
+    .sec-head {
+        font-size: 30px;
+    }
+    .counter_part .img_bg_cus .content_num {
+        margin: 4% 0;
+        padding: 0 18%;
+    }
+    .counter_part .img_bg_cus .content_num h2 {
+        font-size: 22px!important;
+        font-weight: 800;
+    }
+    .counter_part .img_bg_cus .content_num h4 {
+        font-size: 22px!important;
+        font-weight: 400;
+    }
+    /* counter end */
+    /*course shedule start*/
+    .crs_shedule .crs-list p {
+        font-size: 18px;
+        font-weight: 500;
+    }
+    .crs_shedule .crs-list {
+        /* justify-content: center!important; */
+        text-align: center!important;
+        margin: 3% 0;
+    }
+    .crs_shedule .crs-list h4 {
+        font-size: 20px!important;
+    }
+    .crs_shedule .crs-list img {
+        height: 60px;
+        width: 60px;
+        margin-bottom: 1%;
+    }
+    .crs_shedule .crs-list p {
+        font-size: 17px!important;
+    }
+    /*course shedule end*/
+    /*fap start*/
+    .faq p b {
+        font-weight: 500;
+    }
+    .faq .accordion button {
+        font-size: 19px;
+        font-weight: 600;
+    }
+    /*fap end*/
+    /*team start*/
+    .team .bio--1 img {
+        height: 140px;
+        width: 140px;
+        margin-top: 5%;
+    }
+    .team .bio--1 h4 {
+        font-size: 20px;
+    }
+    .team .bio--1 i {
+        font-size: 26px;
+    }
+    .team .team2 .Team_box img {
+        height: 120px;
+        width: 120px;
+    }
+    .team .team2 .Team_box h4 {
+        font-size: 20px;
+    }
+    .team .team2 .prev i {
+        display: none;
+    }
+    .team .team2 .next i {
+        display: none;
+    }
+    .team h5 {
+        font-size: 18px;
+    }
+    /*team end*/
+    /*sponsor start*/
+    .sponser h5 {
+        font-size: 18px!important;
+    }
+    .sponser form .form-btn {
+        padding: 1% 44.7%;
+    }
+    /*sponsor end*/
+    /*back to top*/
+    .back-to-top {
+        height: 45px;
+        width: 45px;
+    }
+    .back-to-top i {
+        position: absolute;
+        left: 12px;
+        top: 5px;
+    }
+    /*back to top*/
 }
-/*header start*/
-header{}
-header a .sizeOfImages{
-	width: 34%!important;
-}
-header .navbar-brand{
-	display: contents;
-}
-header .bg_white{
-	padding:9px 10px!important;
-}
-/*header end*/
-/*banner start*/
-.banner{
-	padding:16% 0 5%;
-}
-.banner .banner-text{
-	padding: ;
-}
-.banner .banner-text p:first-child, .common_p{
-	font-size: 27px;
-}
-.banner .banner-text p:last-child{
-	font-size: 20px;
-}
-.banner .custom-p{
-	margin: ;
-}
-.banner .banner-bottom button i{
-	font-size: 21px;
-}
-.banner .banner-bottom button span{
-	font-size: 18px;
-}
-.banner .banner-bottom .cus_mar{
-	margin-top: 0;
-}
-.banner .banner-bottom p{
-	font-size: 20px;
-}
-.banner .banner-bottom .btn-p{
-	font-size: 16px;
-}
-.banner .custom-p{
-	margin: 0;
-}
-/*banner end*/
-/*overview start*/
-.overview .overview-left p:first-child , .sec-head{
-    font-size: 24px;
-    font-weight: 700;
-}
-.overview .overview-right h3{
-    font-size: 22px;
-    font-weight: 600;
-}
-.overview .overview-right h4{
-	font-size: 20px;
-}
-/*overview end*/
-/*course shedule start*/
-.crs_shedule .crs-list p{
-	font-size: 18px;
-    font-weight: 500;
-}
-/*course shedule end*/
 
-/*fap start*/
-.faq p b{
-	font-weight: 500;
-}
-.faq .accordion button{
-    font-size: 19px;
-    font-weight: 600;
-}
-/*fap end*/
-/*team start*/
-.team .bio--1 img{
-    height: 140px;
-    width: 140px;
-    margin-top: 5%;
-}
-.team .bio--1 h4{
-	font-size: 20px;
-}
-.team .bio--1 i{
-	font-size: 26px;
-}
-.team .team2 .Team_box img{
-	height:120px;
-	width:120px;
-}
-.team .team2 .Team_box h4{
-	font-size: 20px;
-}
-.team .team2 .prev i{
-	display: none;
-}
-.team .team2 .next i{
-	display: none;
-}
-.team  h5{
-	font-size: 18px;
-}
 
-/*team end*/
-/*sponsor start*/
-.sponser h5{
-	font-size:18px!important;
-}
-.sponser form .form-btn{
-	padding: 1% 44.7%;
-}
-/*sponsor end*/
-/*back to top*/
-.back-to-top{
-	height: 45px;
-	width: 45px;
-}
-.back-to-top i{
-    position: absolute;
-    left: 12px;
-    top: 5px;
-}
-/*back to top*/
-}
+/*Medium devices (tablets, less than 992px)*/
 
- /*Medium devices (tablets, less than 992px)*/
 @media (min-width: 768px) and (max-width: 991.98px) {
-/*common for all section with out banner*/
-/*.sec-padding{
-	padding: ;
-}*/
-/*header start*/
-header{}
-header a .sizeOfImages{
-	width: 26%!important;
+    /*common for all section with out banner*/
+    .sec-padding {
+        padding: 6% 0;
+    }
+    /*header start*/
+    header {}
+    header a .sizeOfImages {
+        width: 30%!important;
+    }
+    header .navbar-brand {
+        display: contents;
+    }
+    header .bg_white {
+        padding: 2% 4%!important;
+    }
+    /*header end*/
+    /*banner start*/
+    .banner {
+        padding: 17% 0 3%;
+    }
+    .banner .banner-text {
+        padding: ;
+    }
+    .banner .banner-text p:first-child,
+    .common_p {
+        font-size: 24px;
+    }
+    .banner .banner-text p:last-child {
+        font-size: 20px;
+    }
+    .banner .custom-p {
+        margin: 0;
+    }
+    .banner .banner-bottom button {
+        width: 80%;
+    }
+    .banner .banner-bottom button i {
+        font-size: 22px;
+    }
+    .banner .banner-bottom button span {
+        font-size: 20px;
+    }
+    /*banner end*/
+    /*overview start*/
+    .overview .overview-left p {
+        font-size: 18px;
+    }
+    .overview .overview-left p:first-child,
+    .sec-head {
+        font-size: 26px;
+        font-weight: 700;
+    }
+    .overview .overview-right h3 {
+        font-size: 26px;
+        font-weight: 700;
+    }
+    .overview .overview-right h4 {
+        font-size: 18px;
+    }
+    .overview .overview-right p {
+        font-size: 18px;
+    }
+    /*overview end*/
+    /*counter start*/
+    .counter_part .img_bg_cus .content_num {
+        margin: 4% 0;
+        padding: 0 12%;
+    }
+    .counter_part .img_bg_cus .content_num h2 {
+        font-size: 32px;
+        font-weight: 700;
+    }
+    .counter_part .img_bg_cus .content_num h4 {
+        font-weight: 600;
+    }
+    /*counter end*/
+    /*course shedule start*/
+    .crs_shedule .crs-list p {
+        font-size: 18px;
+        font-weight: 600;
+    }
+    /*course shedule end*/
+    /*fap start*/
+    .faq p b {
+        font-weight: 400;
+    }
+    .faq .accordion button {
+        font-size: 18px;
+        font-weight: 600;
+    }
+    /*fap end*/
+    /*team start*/
+    .team .bio--1 img {
+        height: 170px;
+        width: 170px;
+        margin-top: 5%;
+    }
+    .team .bio--1 h4 {
+        font-size: 21px;
+    }
+    .team .bio--1 i {
+        font-size: ;
+    }
+    .team .team2 .Team_box img {
+        height: 140px;
+        width: 140px;
+    }
+    .team .team2 .Team_box h4 {
+        font-size: 20px;
+    }
+    .team .team2 .prev i {
+        display: none;
+    }
+    .team .team2 .next i {
+        display: none;
+    }
+    .team h5 {
+        font-size: 18px;
+    }
+    /*team end*/
+    /*sponsor start*/
+    .sponser h5 {
+        font-size: 18px!important;
+    }
+    .sponser form {
+        margin-top: 8%;
+    }
+    /*sponsor end*/
+    /*back to top*/
+    .back-to-top {
+        height: ;
+        width: ;
+    }
+    .back-to-top i {
+        font-weight: ;
+        /*position: absolute;*/
+        left: ;
+        top: ;
+    }
+    .sponser .footer {
+        margin-top: 20px!important;
+    }
+    /*back to top*/
 }
-header .navbar-brand{
-	display: contents;
-}
-header .bg_white{
-	padding:2% 4%!important;
-}
-/*header end*/
-/*banner start*/
-.banner{
-	padding:17% 0 3%;
-}
-.banner .banner-text{
-	padding: ;
-}
-.banner .banner-text p:first-child, .common_p{
-	font-size: 24px;
-}
-.banner .banner-text p:last-child{
-	font-size: 20px;
-}
-.banner .custom-p{
-	margin: 0;
-}
-.banner .banner-bottom button{
-	width: 80%;
-}
-.banner .banner-bottom button i{
-	font-size: 22px;
-}
-.banner .banner-bottom button span{
-	font-size: 20px;
-}
-/*banner end*/
-/*overview start*/
-.overview .overview-left p:first-child , .sec-head{
-    font-size: 26px;
-    font-weight: 700;
-}
-.overview .overview-right h3{
-	font-size: 24px;
-    font-weight: 500;
-}
-.overview .overview-right h4{
-	font-size: 18px;
-}
-/*overview end*/
-/*course shedule start*/
-.crs_shedule .crs-list p{
-    font-size: 18px;
-    font-weight: 600;
-}
-/*course shedule end*/
 
-/*fap start*/
-.faq p b{
-	font-weight: 400;
-}
-.faq .accordion button{
-    font-size: 18px;
-    font-weight: 600;
-}
-/*fap end*/
-/*team start*/
-.team .bio--1 img{
-    height: 170px;
-    width: 170px;
-    margin-top: 5%;
-}
-.team .bio--1 h4{
-	font-size: 21px;
-}
-.team .bio--1 i{
-	font-size: ;
-}
-.team .team2 .Team_box img{
-	height: 140px;
-	width: 140px;
-}
-.team .team2 .Team_box h4{
-	font-size: 20px;
-}
-.team .team2 .prev i{
-	display: none;
-}
-.team .team2 .next i{
-	display: none;
-}
-.team  h5{
-	font-size: 18px;
+
+/*Large devices (desktops, less than 1200px)*/
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    /*header start*/
+    header a .sizeOfImages {
+        width: 75%;
+    }
+    /*header end*/
+    /*counter start*/
+    .counter_part .img_bg_cus .content_num {
+        margin: 4% 0;
+        padding: 0 8%;
+    }
+    .counter_part .img_bg_cus .content_num h2 {
+        font-size: 40px;
+        font-weight: 700;
+    }
+    .counter_part .img_bg_cus .content_num h4 {
+        font-weight: 600;
+    }
+    /*counter end*/
 }
 
-/*team end*/
-/*sponsor start*/
-.sponser h5{
-	font-size: 18px!important;
+
+/*Extra large devices (large desktops)*/
+
+@media (min-width: 1200px) {
+    .sec-padding {
+        padding: 4% 0 5%;
+    }
+    /*header start*/
+    header {}
+    header a .sizeOfImages {
+        /* width: 50%!important; */
+    }
+    header .navbar-brand {
+        display: contents;
+    }
+    header .bg_white {
+        padding: 10px 16px !important;
+    }
+    /*header end*/
+    /*banner start*/
+    .banner {
+        padding: 8% 0 5%;
+    }
+    .banner .banner-text {
+        padding: 10% 4%;
+    }
+    .banner .banner-text p:first-child,
+    .common_p {
+        font-size: 35px;
+    }
+    .banner .banner-text p:last-child {
+        font-size: 25px;
+    }
+    .banner .custom-p {
+        margin: 10px 0 0;
+    }
+    .banner .banner-bottom {
+        margin-top: 0!important;
+    }
+    .banner .banner-bottom button i {
+        font-size: 30px;
+    }
+    .banner .banner-bottom button span {
+        font-size: 21px;
+    }
+    /*banner end*/
+    /*overview start*/
+    .overview .overview-left p:first-child,
+    .sec-head {
+        font-size: 35px;
+        font-weight: 700;
+    }
+    .overview .overview-right h3 {
+        font-size: 35px;
+        font-weight: 700;
+    }
+    .overview .overview-right h4 {
+        font-size: 22px;
+        font-weight: 500!important;
+    }
+    .overview .c-details {
+        font-size: 21px!important;
+    }
+    /*overview end*/
+    /*course shedule start*/
+    .crs_shedule .crs-list p {
+        font-size: 20px;
+        font-weight: 600;
+    }
+    .crs_shedule .crs-list img {
+        height: 70px;
+        width: 70px;
+    }
+    /*course shedule end*/
+    /*fap start*/
+    .faq p b {
+        font-weight: 300;
+    }
+    .faq .accordion button {
+        font-size: 27px;
+        font-weight: 600;
+    }
+    .faq .sec_header p b {
+        font-size: 21px;
+    }
+    .accordian .card .card-header .card-body {
+        font-size: 21px!important;
+    }
+    /*fap end*/
+    /*team start*/
+    /*     .team .bio--1 img {
+        height: 130px;
+        width: 130px;
+        margin-top: 6%;
+    }*/
+    .team .bio--1 h4 {
+        font-size: 22px;
+    }
+    .team .bio--1 i {
+        font-size: 22px;
+    }
+    .team .team2 .Team_box img {
+        height: 110px;
+        width: 110px;
+    }
+    .team .team2 .Team_box h4 {
+        font-size: 18px;
+    }
+    .team .team2 .prev i {
+        display: none;
+    }
+    .team .team2 .next i {
+        display: none;
+    }
+    .team h5 {
+        font-size: 16px;
+    }
+    /*team end
+    /*sponsor start*/
+    /*    .sponser h5 {
+        font-size: 16px!important;
+    }
+    .sponser form .form-btn {
+        padding: 1% 40.7%;
+    }*/
+    /*sponsor end*/
+    /*back to top*/
+    .back-to-top {
+        height: 40px;
+        width: 40px;
+    }
+    .back-to-top i {
+        font-weight: 900;
+        position: absolute;
+        left: 9px;
+        top: 3px;
+    }
+    */
+    /*back to top*/
+    .footer {
+        padding-bottom: 0!important;
+    }
+    .custom-footer-padding {
+        padding-top: 10px;
+        margin-bottom: 0!important;
+        padding-bottom: 0!important;
+    }
 }
-.sponser form{
-	margin-top: 8%;
-}
-/*sponsor end*/
-/*back to top*/
-.back-to-top{
-	height: ;
-	width: ;
-}
-.back-to-top i{
-	font-weight: ;
-    /*position: absolute;*/
-    left: ;
-    top: ;
-}
-.sponser .footer{
-	margin-top: 20px!important;
-}
-/*back to top*/
+
 
 }
 
- /*Large devices (desktops, less than 1200px)*/
-@media (min-width: 992px) and (max-width: 1199.98px) { 
-/*header start*/
-header a .sizeOfImages{
-	width: 45%;
-}
-/*header end*/
-
-
-}
-
- /*Extra large devices (large desktops)*/
- /*No media query since the extra-large breakpoint has no upper bound on its width*/
+/*No media query since the extra-large breakpoint has no upper bound on its width*/

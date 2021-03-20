@@ -1,0 +1,198 @@
+.pointOfClass {
+    margin-top: 6%;
+}
+
+.card {
+    margin-top: 5%;
+}
+
+.card .img---1 {
+    margin-top: 30%!important;
+}
+
+.card .img---2 {
+    margin-top: 32%!important;
+}
+
+.card .img---3 {
+    margin-top: 32%!important;
+}
+
+.card .img---4 {
+    margin-top: 40%!important;
+}
+
+.sec-padding {
+    padding: 2% 0!important;
+}
+
+
+/* bootstrap class modification */
+
+.btn-primary {
+    color: #fff;
+    background-color: #008FAA;
+    border-color: #008FAA;
+}
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: #111C3D;
+    border-color: #111C3D;
+}
+
+
+/* // Extra small devices (portrait phones, less than 576px) */
+
+@media (max-width: 575.98px) {
+    .pointOfClass {
+        margin-top: 6%;
+    }
+    .card {
+        margin-top: 5%;
+        text-align: center;
+        justify-content: center;
+    }
+    .pointOfClass .sec-title {
+        font-size: 22px!important;
+        margin-top: 75px;
+    }
+    .card img {
+        width: 50%!important;
+    }
+    /* .card .img---1{
+        margin-top: 5%!important;
+    } */
+    .card .img---2 {
+        margin-top: 5%!important;
+    }
+    .card .img---3 {
+        margin-top: 5%!important;
+    }
+    .card .img---4 {
+        margin-top: 5%!important;
+    }
+    .for-md {
+        margin-bottom: 7%;
+    }
+}
+
+
+/* // Small devices (landscape phones, 576px and up) */
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .pointOfClass {
+        margin-top: 6%;
+    }
+    .card {
+        margin-top: 5%;
+        text-align: center;
+        justify-content: center;
+    }
+    .pointOfClass .sec-title {
+        font-size: 25px!important;
+        font-weight: 700;
+        margin-top: 75px;
+    }
+    .card img {
+        width: 40%!important;
+    }
+    .card .img---1 {
+        margin-top: 0%!important;
+    }
+    .card .img---2 {
+        margin-top: 4%!important;
+    }
+    .card .img---3 {
+        margin-top: 4%!important;
+    }
+    .card .img---4 {
+        margin-top: 4%!important;
+    }
+    .for-md {
+        margin-bottom: 6%;
+    }
+}
+
+
+/* // Medium devices (tablets, 768px and up) */
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .pointOfClass {
+        margin-top: 6%;
+    }
+    .card {
+        margin-top: 5%;
+        text-align: left;
+        /* justify-content: center; */
+    }
+    .pointOfClass .sec-title {
+        font-size: 25px!important;
+        font-weight: 700;
+        margin-top: 16%;
+    }
+    .for-md {
+        margin-bottom: 6%;
+    }
+    .card img {
+        /* width: 70%!important; */
+    }
+    .card .img---1 {
+        margin-top: 20%!important;
+    }
+    .card .img---2 {
+        margin-top: 24%!important;
+    }
+    .card .img---3 {
+        margin-top: 21%!important;
+    }
+    .card .img---4 {
+        margin-top: 22%!important;
+    }
+}
+
+
+/* // Large devices (desktops, 992px and up) */
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .pointOfClass {
+        margin-top: 12%;
+    }
+    .card {
+        margin-top: 2%;
+        text-align: left;
+        /* justify-content: center; */
+    }
+    .pointOfClass .sec-title {
+        font-size: 25px!important;
+        font-weight: 700;
+        /* margin-top: 10%; */
+    }
+    .for-md {
+        margin-bottom: 6%;
+    }
+    .card img {
+        /* width: 70%!important; */
+    }
+    .card .img---1 {
+        margin-top: 59%;
+    }
+    .card .img---2 {
+        margin-top: 58%!important;
+    }
+    .card .img---3 {
+        margin-top: 55%!important;
+    }
+    .card .img---4 {
+        margin-top: 62%!important;
+    }
+}
+
+
+/* // Extra large devices (large desktops, 1200px and up) */
+
+@media (min-width: 1200px) {
+    .for-md {
+        margin-bottom: 6%;
+    }
+}
