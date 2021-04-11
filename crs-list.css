@@ -7,15 +7,15 @@
 }
 
 .card .img---2 {
-    margin-top: 24%!important;
+    margin-top: 15%!important;
 }
 
 .card .img---3 {
-    margin-top: 21%!important;
+    margin-top: 17%!important;
 }
 
 .card .img---4 {
-    margin-top: 40%!important;
+    margin-top: 28%!important;
 }
 
 .sec-padding {
@@ -60,10 +60,10 @@
         margin-top: 24%!important;
     }
     .card .img---3 {
-        margin-top: 21%!important;
+        margin-top: 19%!important;
     }
     .card .img---4 {
-        margin-top: 40%!important;
+        margin-top: 20%!important;
     }
 }
 
@@ -85,16 +85,16 @@
         margin-top: 75px;
     }
     .card img {
-        width: 70%!important;
+        width: 40%!important;
     }
     .card .img---2 {
-        margin-top: 24%!important;
+        margin-top: 5%!important;
     }
     .card .img---3 {
-        margin-top: 21%!important;
+        margin-top: 7%!important;
     }
     .card .img---4 {
-        margin-top: 40%!important;
+        margin-top: 10%!important;
     }
 }
 

@@ -19,7 +19,7 @@
 }
 
 .card .img---4 {
-    margin-top: 20%!important;
+    margin-top: 10%!important;
 }
 
 .sec-padding {
@@ -175,16 +175,16 @@
         /* width: 70%!important; */
     }
     .card .img---1 {
-        margin-top: 48%;
+        margin-top: 12%;
     }
     .card .img---2 {
-        margin-top: 80%!important;
+        margin-top: 35%!important;
     }
     .card .img---3 {
-        margin-top: 55%!important;
+        margin-top: 15%!important;
     }
     .card .img---4 {
-        margin-top: 55%!important;
+        margin-top: 10%!important;
     }
 }
 

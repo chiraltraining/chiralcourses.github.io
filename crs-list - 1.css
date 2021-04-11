@@ -7,19 +7,19 @@
 }
 
 .card .img---1 {
-    margin-top: 32%!important;
+    margin-top: 27%!important;
 }
 
 .card .img---2 {
-    margin-top: 34%!important;
+    margin-top: 34%;
 }
 
 .card .img---3 {
-    margin-top: 30%!important;
+    margin-top: 26%!important;
 }
 
 .card .img---4 {
-    margin-top: 21%!important;
+    margin-top: 10%!important;
 }
 
 .sec-padding {
@@ -171,20 +171,20 @@
     .for-md {
         margin-bottom: 6%;
     }
-    .card img {
-        /* width: 70%!important; */
-    }
+    /* .card img {
+        width: 70%!important;
+    } */
     .card .img---1 {
-        margin-top: 65%!important;
+        margin-top: 24%!important;
     }
     .card .img---2 {
-        margin-top: 70%!important;
+        margin-top: 22%!important;
     }
     .card .img---3 {
-        margin-top: 69%!important;
+        margin-top: 26%!important;
     }
     .card .img---4 {
-        margin-top: 60%!important;
+        margin-top: 9%!important;
     }
 }
 
@@ -194,5 +194,8 @@
 @media (min-width: 1200px) {
     .for-md {
         margin-bottom: 6%;
+    }
+    .card .img---22 {
+        margin-top: 22%!important;
     }
 }
